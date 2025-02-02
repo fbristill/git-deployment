@@ -2,7 +2,7 @@
 FROM nginx:latest
  
 # Copy your custom nginx configuration file (optional)
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf2
  
 # Copy your custom website files (optional)
 COPY html /usr/share/nginx/html
